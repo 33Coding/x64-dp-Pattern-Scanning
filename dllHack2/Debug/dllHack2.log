@@ -1,0 +1,16 @@
+﻿Build started 04.11.2015 23:31:03.
+     1>Project "F:\Documents\Visual Studio 2013\Projects\Pattern Scanning\dllHack2\dllHack2.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLLHACK2_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Pattern Scanning\main.cpp"
+         main.cpp
+     1>f:\documents\visual studio 2013\projects\pattern scanning\pattern scanning\functions.h(10): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)' : cannot convert argument 2 from 'char [1024]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\documents\visual studio 2013\projects\pattern scanning\pattern scanning\functions.h(18): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)' : cannot convert argument 1 from 'char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\documents\visual studio 2013\projects\pattern scanning\pattern scanning\consolefuncs.h(13): error C2664: 'BOOL SetConsoleTitleW(LPCWSTR)' : cannot convert argument 1 from 'const char [13]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Done Building Project "F:\Documents\Visual Studio 2013\Projects\Pattern Scanning\dllHack2\dllHack2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.51

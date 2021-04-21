@@ -1,0 +1,14 @@
+﻿Build started 19.11.2015 17:29:10.
+     1>Project "F:\Documents\Visual Studio 2013\Projects\Pattern Scanning\Pattern Scanning\Pattern Scanning.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Pattern Scanning.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PATTERNSCANNING_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Documents\Visual Studio 2013\Projects\Pattern Scanning\x64\Debug\dllHack1.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Documents\Visual Studio 2013\Projects\Pattern Scanning\x64\Debug\dllHack1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Documents\Visual Studio 2013\Projects\Pattern Scanning\x64\Debug\dllHack1.lib" /MACHINE:X64 /DLL x64\Debug\main.obj
+         Pattern Scanning.vcxproj -> F:\Documents\Visual Studio 2013\Projects\Pattern Scanning\x64\Debug\dllHack1.dll
+     1>Done Building Project "F:\Documents\Visual Studio 2013\Projects\Pattern Scanning\Pattern Scanning\Pattern Scanning.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.12

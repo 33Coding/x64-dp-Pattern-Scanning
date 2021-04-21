@@ -1,0 +1,7 @@
+Feauters:        Hotkey:
+
+Unimited Zoom  	-> Numpad 1
+Camera Noclip  	-> Numpad 2
+Unlimited Run  	-> Numpad 3
+Walk in Water  	-> Numpad 4
+Anti Slip	  	-> Numpad 5

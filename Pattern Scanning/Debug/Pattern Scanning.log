@@ -1,0 +1,13 @@
+﻿Build started 04.11.2015 23:28:08.
+     1>Project "F:\Documents\Visual Studio 2013\Projects\Pattern Scanning\Pattern Scanning\Pattern Scanning.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Pattern Scanning.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PATTERNSCANNING_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\documents\visual studio 2013\projects\pattern scanning\pattern scanning\ConsoleFuncs.h(15): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdio.h(226) : see declaration of 'freopen'
+     1>Done Building Project "F:\Documents\Visual Studio 2013\Projects\Pattern Scanning\Pattern Scanning\Pattern Scanning.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.82
